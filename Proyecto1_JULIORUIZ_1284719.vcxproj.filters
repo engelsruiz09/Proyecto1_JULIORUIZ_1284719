@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Clases">
+      <UniqueIdentifier>{bdd632cf-858f-45bb-9262-fa580a6ac802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Estructuras">
+      <UniqueIdentifier>{2f624e81-186b-4103-ad9f-dc06f2a144fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Estructuras\Cola">
+      <UniqueIdentifier>{e29348f8-988e-408d-9285-d3279edf7d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Estructuras\Pila">
+      <UniqueIdentifier>{ba25c764-3b88-4442-b445-90534b5009d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Estructuras\Lista">
+      <UniqueIdentifier>{e5f7955e-5d03-4b8b-ad3a-f20ff0606fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Archivos">
+      <UniqueIdentifier>{eb934b7f-e70c-40fe-874b-2b654b13b877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Formularios">
+      <UniqueIdentifier>{43f34487-2c1f-4efd-b0a2-8064a837e5ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Entidades">
+      <UniqueIdentifier>{10980b5c-f356-4204-96bd-c80ed6196d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Entidades\Cancion">
+      <UniqueIdentifier>{ab11fd20-e7ae-49f5-b8fa-06a339d1a2d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Archivos\CsvReader">
+      <UniqueIdentifier>{59c7d64b-51c1-45df-8f2b-625149cffa1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Archivos\CsvWriter">
+      <UniqueIdentifier>{6337316b-bda5-4549-b4b0-fa239129678f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases\Estructuras\Nodo">
+      <UniqueIdentifier>{24a51a7d-8611-4ffd-a0c4-a09867980dce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Pila.cpp">
+      <Filter>Clases\Estructuras\Pila</Filter>
+    </ClCompile>
+    <ClCompile Include="Cola.cpp">
+      <Filter>Clases\Estructuras\Cola</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>Clases\Estructuras\Lista</Filter>
+    </ClCompile>
+    <ClCompile Include="Cancion.cpp">
+      <Filter>Clases\Entidades\Cancion</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="CsvReader.cpp">
+      <Filter>Clases\Archivos\CsvReader</Filter>
+    </ClCompile>
+    <ClCompile Include="CsvWriter.cpp">
+      <Filter>Clases\Archivos\CsvWriter</Filter>
+    </ClCompile>
+    <ClCompile Include="Nodo.cpp">
+      <Filter>Clases\Estructuras\Nodo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Pila.h">
+      <Filter>Clases\Estructuras\Pila</Filter>
+    </ClInclude>
+    <ClInclude Include="Cola.h">
+      <Filter>Clases\Estructuras\Cola</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Clases\Estructuras\Lista</Filter>
+    </ClInclude>
+    <ClInclude Include="Cancion.h">
+      <Filter>Clases\Entidades\Cancion</Filter>
+    </ClInclude>
+    <ClInclude Include="Musica.h">
+      <Filter>Formularios</Filter>
+    </ClInclude>
+    <ClInclude Include="CsvReader.h">
+      <Filter>Clases\Archivos\CsvReader</Filter>
+    </ClInclude>
+    <ClInclude Include="CsvWriter.h">
+      <Filter>Clases\Archivos\CsvWriter</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodo.h">
+      <Filter>Clases\Estructuras\Nodo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
